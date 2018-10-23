@@ -61,7 +61,7 @@ public class JavaSparkSQLExample  {
 	    				.withColumn("action_type", DatasetInJson.col("_n").cast(DataTypes.StringType))    				
 	    				;    
 
-	//------------Удалим файлы, если они уже есть----------------------------------------------------------------------------------------------------------
+	//--------------Удалим файлы, если они уже есть----------------------------------------------------------------------------------------------------------
 	   // File fileReg = new File(pathPargetRegistered);    
 	   // recursiveDelete(fileReg);    
 
